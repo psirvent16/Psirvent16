@@ -1,0 +1,403 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+
+}
+
+.header-inicio {
+    
+    width: 100%;
+
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul{
+
+    list-style: none;
+    
+}
+.icono {height: 100px;
+width: 150px;}
+.header-inicio .links-secciones li {
+    display: inline-block;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+   
+} 
+a {color: white;}
+
+.body-inicio{background-image: url(../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg);
+height: 100%;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h1 { 
+    text-align: center;
+    margin: 220px 40px 30px 20px;
+    font-size: 36px;
+   
+
+    font-family: "Mukta", sans-serif;
+
+   color: red;
+    padding: 0%;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
+
+
+
+    
+}
+
+
+
+
+
+
+.header-productos {
+    
+    width: 100%;
+
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid white;
+    max-width: 1500px;
+    
+}
+
+ul{
+
+    list-style: none;
+    
+}
+.icono {height: 100px;
+width: 150px;}
+.header-productos .links-secciones li {
+    display: inline-block;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+   
+} 
+a {color: white;}
+
+.producto {background-color: black;}
+
+.container {width: 100%;
+max-width: 1500px;
+height: 430px;
+display: flex;
+padding-top: 100px;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+background-color: black;
+border: 2px solid white;
+}
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+margin: 20px;
+text-align: center;
+max-width: 1100px;
+}
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h3 {font-weight: 600;
+    color: white;
+}
+
+.container .card h5 {font-weight: 600;
+    color: white;
+}
+h2{
+    color: white;
+}
+
+
+.nike  {
+    padding-top:  100px;
+    text-align: center;
+}
+.adidas {padding-top: 100px;
+text-align: center;}
+
+
+.contacto {
+    background-color: black;
+}
+.header-contacto {
+    
+    width: 100%;
+
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    max-width: 1500px;
+    
+}
+
+ul{
+
+    list-style: none;
+    
+}
+.icono {height: 100px;
+width: 150px;}
+.header-contacto .links-secciones li {
+    display: inline-block;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+   
+} 
+a {color: white;}
+
+
+form {  font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px 50px 40px;
+    margin: 40px 50px 50px 40px;
+    color: red;
+}
+
+.nombre {height: 30px;
+width: 1100px;}
+
+.correo {height: 30px;
+    width: 1100px;}   
+
+
+.contraseña  {height: 30px;
+    width: 1100px;} 
+
+
+.mensaje {height: 60px;
+width: 1100px;}    
+
+.envie {height: 30px;
+    width: 1100px;
+}
+
+.borre {height: 30px;
+    width: 1100px;} 
+
+
+.header-informacion {
+    
+        width: 100%;
+    
+        background-color: black;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid white;
+        max-width: 1500px;
+        
+        
+    }
+    ul{
+    
+        list-style: none;
+        
+    }
+.icono {height: 100px;
+    width: 150px;}
+.header-informacion .links-secciones li {
+        display: inline-block;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: "Roboto", sans-serif;
+       
+    } 
+ a {color: white;}    
+
+
+.informacion{
+    background-color: black;
+}
+
+ .lista-info{
+    padding-top:  100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+
+
+
+ }
+
+ .footer {background-color: black;
+color: white;
+padding: 20px 0;
+
+border-top: 2px solid white;
+
+
+
+width: 100%;
+}
+
+.foot-cont{
+    width: 80%;
+    margin: 0% auto;
+}
+
+.conten-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo-foot img {
+    width: 150px;
+    height: 100px;
+}
+
+.foot-links ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+.foot-links ul li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.foot-links ul li a {
+    color: red;
+    text-decoration: none;
+
+}
+
+.contact-foot p {
+    margin: 0%;
+}
+ 
+
+.redes-sociales {
+    text-align: center; 
+}
+
+.redes-sociales img {
+    width: 70px; 
+    height: auto;
+    margin: 0 10px; 
+}
+
+
+.main-inicio {flex: 1;}
+
+
+.header-devoluciones {
+
+    width: 100%;
+
+    background-color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid white;
+    max-width: 1500px;
+    
+    
+   
+    
+}
+ul{
+
+    list-style: none;
+    
+}
+.icono {height: 100px;
+width: 150px;}
+.header-devoluciones .links-secciones li {
+    display: inline-block;
+    align-items: center;
+    padding-right: 1rem;
+    font-family: "Roboto", sans-serif;
+   
+} 
+a {color: white;}
+
+.devoluciones {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    color: white;
+
+
+
+
+}
+
+.devolver {
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    
+}
+
+.devolver h2 {
+    font-size: 24px;
+    
+}
+
+.devolver h3 {
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
+
+.devolver ol {
+    margin-top: 10px;
+}
+
+.devolver ol li {
+    margin-bottom: 10px;
+}
+
+.devolver p {
+    line-height: 1.5;
+}
+
+
+
+
+.main-contacto {flex: 1;}
+
+.main-productos {flex: 1;}
+
+.main-informacion {flex: 1;}
+
+.main-devoluciones {flex: 1;}
+
+
+
+
