@@ -84,69 +84,68 @@ h1 {
     position: fixed;
     border-bottom: 2px solid white;
     max-width: 1500px;
+    z-index: 1000;
     }
     
-    ul{
+   
     
     
-    list-style: none;
-    }
-    .icono {height: 100px;
-    width: 150px;}
-    .header-productos .links-secciones li {
-    display: inline-block;
-    align-items: center;
-    padding-right: 1rem;
-    font-family: "Roboto", sans-serif;
-    
-    }
-    a {color: white;}
-    
-    .producto {background-color: black;}
     
     .container {width: 100%;
     max-width: 1500px;
-    height: 430px;
     display: flex;
-    padding-top: 100px;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
     background-color: black;
     border: 2px solid white;
-    }
+    padding: 20px; /* Añadido para dar espacio entre el borde y las tarjetas */
+}
+    
+    
     
     .container .card {
-    width: 330px;
-    height: 430px;
+        width: 330px;
+    height: auto; /* Cambiado a 'auto' para ajustarse al contenido */
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    max-width: 1100px;
+    max-width: 100%; /* Ajustado para que se adapte al ancho del contenedor */
+    background-color: #222; /* Añadido para visualizar mejor el área de la tarjeta */
+    display: flex;
+    flex-direction: column; /* Añadido para alinear elementos verticalmente */
+
+    
+    
     }
     .container .card img{
-    width: 330px;
-    height: 220px;
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ajustado para que la imagen ocupe todo el ancho disponible */
+    object-fit: cover; /* Añadido para cubrir completamente el espacio */
+    }
+    .container .card-body {
+        padding: 10px; /* Añadido para espacio interno en la tarjeta */
     }
     
-    .container .card h3 {font-weight: 600;
+    .container .card h3, .container .card h5 {
     color: white;
-    }
+    margin-top: 10px; /* Ajustado para separar los elementos */   }
+
     
-    .container .card h5 {font-weight: 600;
-    color: white;
-    }
-    h2{
-    color: white;
-    }
     
-    .nike {
-    padding-top: 100px;
-    text-align: center;
+    .container .card button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-top: auto; /* Añadido para alinear al final de la tarjeta */
     }
-    .adidas {padding-top: 100px;
-    text-align: center;}
+   
+    
+   
 
 
 .contacto {
@@ -265,6 +264,8 @@ width: 100%;
 
 
 border-top: 2px solid white;
+clear: both; /* Añadido para limpiar floats */
+    position: relative; /* Añadido para controlar posición */
 
 
 
@@ -274,7 +275,10 @@ border-top: 2px solid white;
 
 .foot-cont{
     width: 100%;
-    margin: 0% auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .conten-foot {
@@ -288,7 +292,9 @@ border-top: 2px solid white;
 .logo-foot img {
     width: 150px;
     height: 100px;
+    object-fit: contain; /* Cambiado para mantener la proporción */
 }
+
 
 
 .foot-links ul {
