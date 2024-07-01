@@ -2,82 +2,102 @@
     margin: 0%;
     padding: 0%;
     box-sizing: 0%;
-
-}
-
-body {
+ 
+ 
+ }
+ 
+ 
+ body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
-}
-
-main {
+    min-height: 100vh;
+ }
+ 
+ 
+ main {
     flex: 1;   }
-
-.header-inicio {
-    
+ 
+ 
+ .header-inicio {
+   
     width: 100%;
-
+ 
+ 
     background-color: black;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-ul{
-
+   
+ }
+ ul{
+ 
+ 
     list-style: none;
-    
-}
-.icono {height: 100px;
-width: 150px;}
-.header-inicio .links-secciones li {
+   
+ }
+ .icono {height: 100px;
+ width: 150px;}
+ .header-inicio .links-secciones li {
     display: inline-block;
     align-items: center;
     padding-right: 1rem;
     font-family: "Roboto", sans-serif;
-   
-} 
-a {color: white;}
-
-.body-inicio{background-image: url(../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg);
-height: 100%;
-width: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-}
-h1 { 
+  
+ }
+ a {color: white;}
+ 
+ 
+ .body-inicio{background-image: url(../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg);
+ height: 100%;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ h1 {
     text-align: center;
     margin: 220px 40px 30px 20px;
     font-size: 36px;
-   
-
+  
+ 
+ 
     font-family: "Mukta", sans-serif;
-
+ 
+ 
    color: red;
     padding: 0%;
-
+ 
+ 
     display: flex;
     flex-direction: column;
     min-height: 230px;
-
-
-
-    
-}
-
-
-
-
-
-
-.header-productos {
-
-    
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .header-productos {
+ 
+ 
+   
     width: 100%;
-    
+   
     background-color: black;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -85,11 +105,11 @@ h1 {
     max-width: 1500px;
     z-index: 1000;
     }
-    
    
-    
-    
-    
+  
+   
+   
+   
     .container {width: 100%;
     max-width: 1500px;
     display: flex;
@@ -98,327 +118,402 @@ h1 {
     margin: auto;
     background-color: black;
     border: 2px solid white;
-    padding: 20px; 
-}
-    
-    
-    
+    padding: 20px;
+ }
+   
+   
+   
     .container .card {
         width: 330px;
-    height: auto; 
+    height: auto;
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    max-width: 100%; 
-    background-color: #222; 
+    max-width: 100%;
+    background-color: #222;
     display: flex;
-    flex-direction: column; 
-
-    
-    
+    flex-direction: column;
+ 
+ 
+   
+   
     }
     .container .card img{
     width: 100%;
     height: auto;
-    max-width: 100%; 
-    object-fit: cover; 
+    max-width: 100%;
+    object-fit: cover;
     }
     .container .card-body {
-        padding: 10px; 
+        padding: 10px;
     }
-    
+   
     .container .card h3, .container .card h5 {
     color: white;
     margin-top: 10px;    }
-
-    
-    
+ 
+ 
+   
+   
     .container .card button {
         background-color: red;
         color: white;
         border: none;
         padding: 10px 20px;
         cursor: pointer;
-        margin-top: auto; 
+        margin-top: auto;
     }
+  
    
-    
-   
-
-
-.contacto {
+  
+ 
+ 
+ 
+ 
+ .contacto {
     background-color: black;
-}
-.header-contacto {
-    
+ }
+ .header-contacto {
+   
     width: 100%;
-
+ 
+ 
     background-color: black;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid white;
     max-width: 1500px;
-    
-}
-
-ul{
-
+   
+ }
+ 
+ 
+ ul{
+ 
+ 
     list-style: none;
-    
-}
-.icono {height: 100px;
-width: 150px;}
-.header-contacto .links-secciones li {
+   
+ }
+ .icono {height: 100px;
+ width: 150px;}
+ .header-contacto .links-secciones li {
     display: inline-block;
     align-items: center;
     padding-right: 1rem;
     font-family: "Roboto", sans-serif;
-   
-} 
-a {color: white;}
-
-
-form {  font-family: "Roboto", sans-serif;
+  
+ }
+ a {color: white;}
+ 
+ 
+ 
+ 
+ form {  font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     padding: 40px 50px 50px 40px;
     margin: 40px 50px 50px 40px;
     color: red;
-}
-
-.nombre {height: 30px;
-width: 1100px;}
-
-.correo {height: 30px;
-    width: 1100px;}   
-
-
-.contraseña  {height: 30px;
-    width: 1100px;} 
-
-
-.mensaje {height: 60px;
-width: 1100px;}    
-
-.envie {height: 30px;
+ }
+ 
+ 
+ .nombre {height: 30px;
+ width: 1100px;}
+ 
+ 
+ .correo {height: 30px;
+    width: 1100px;}  
+ 
+ 
+ 
+ 
+ .contraseña  {height: 30px;
+    width: 1100px;}
+ 
+ 
+ 
+ 
+ .mensaje {height: 60px;
+ width: 1100px;}   
+ 
+ 
+ .envie {height: 30px;
     width: 1100px;
-}
-
-.borre {height: 30px;
-    width: 1100px;} 
-
-
-.header-informacion {
-    
+ }
+ 
+ 
+ .borre {height: 30px;
+    width: 1100px;}
+ 
+ 
+ 
+ 
+ .header-informacion {
+   
         width: 100%;
-    
+   
         background-color: black;
-        display: flex; 
+        display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 2px solid white;
         max-width: 1500px;
-        
-        
+       
+       
     }
     ul{
-    
+   
         list-style: none;
-        
+       
     }
-.icono {height: 100px;
+ .icono {height: 100px;
     width: 150px;}
-.header-informacion .links-secciones li {
+ .header-informacion .links-secciones li {
         display: inline-block;
         align-items: center;
         padding-right: 1rem;
         font-family: "Roboto", sans-serif;
-       
-    } 
- a {color: white;}    
-
-
-.informacion{
+      
+    }
+ a {color: white;}   
+ 
+ 
+ 
+ 
+ .informacion{
     background-color: black;
-}
-
+ }
+ 
+ 
  .lista-info{
     padding-top:  100px;
     padding-bottom: 100px;
     text-align: center;
     color: white;
     font-family: "Lato", sans-serif;
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
  }
-
+ 
+ 
  .footer {background-color: black;
-color: white;
-padding: 20px;
-width: 100%;
-
-
-
-border-top: 2px solid white;
-clear: both; 
-    position: relative; 
-
-
-
-
-
-}
-
-.foot-cont{
+ color: white;
+ padding: 20px;
+ width: 100%;
+ 
+ 
+ 
+ 
+ 
+ 
+ border-top: 2px solid white;
+ clear: both;
+    position: relative;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ .foot-cont{
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.conten-foot {
+ }
+ 
+ 
+ .conten-foot {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-}
-
-.logo-foot img {
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ .logo-foot img {
     width: 150px;
     height: 100px;
-    object-fit: contain; 
-}
-
-
-
-.foot-links ul {
+    object-fit: contain;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .foot-links ul {
     list-style: none;
     padding: 0%;
     margin: 0%;
-
-
-}
-.foot-links ul li {
+ 
+ 
+ 
+ 
+ }
+ .foot-links ul li {
     display: inline;
     margin-right: 20px;
-
-}
-
-.foot-links ul li a {
+ 
+ 
+ }
+ 
+ 
+ .foot-links ul li a {
     color: red;
     text-decoration: none;
-
-}
-
-.contact-foot p {
-    margin: 0%;
-}
  
-
-.redes-sociales {
-    text-align: center; 
-}
-
-.redes-sociales img {
-    width: 70px; 
+ 
+ }
+ 
+ 
+ .contact-foot p {
+    margin: 0%;
+ }
+ 
+ 
+ .redes-sociales {
+    text-align: center;
+ }
+ 
+ 
+ .redes-sociales img {
+    width: 70px;
     height: auto;
-    margin: 0 10px; 
-}
-
-
-.main-inicio, .main-productos, .main-contacto, .main-informacion, .main-devoluciones {
+    margin: 0 10px;
+ }
+ 
+ 
+ 
+ 
+ .main-inicio, .main-productos, .main-contacto, .main-informacion, .main-devoluciones {
     flex: 1;
-}
-
-
-
-.header-devoluciones {
-
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .header-devoluciones {
+ 
+ 
     width: 100%;
-
+ 
+ 
     background-color: black;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     border-bottom: 2px solid white;
     max-width: 1500px;
-    
-    
    
-    
-}
-ul{
-
+   
+  
+   
+ }
+ ul{
+ 
+ 
     list-style: none;
-    
-}
-.icono {height: 100px;
-width: 150px;}
-.header-devoluciones .links-secciones li {
+   
+ }
+ .icono {height: 100px;
+ width: 150px;}
+ .header-devoluciones .links-secciones li {
     display: inline-block;
     align-items: center;
     padding-right: 1rem;
     font-family: "Roboto", sans-serif;
-   
-} 
-a {color: white;}
-
-.devoluciones {
+  
+ }
+ a {color: white;}
+ 
+ 
+ .devoluciones {
     background-color: black;
     font-family: "Roboto", sans-serif;
     color: white;
-
-
-
-
-}
-
-.devolver {
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ .devolver {
     padding: 20px;
     text-align: center;
     list-style: none;
-    
-}
-
-.devolver h2 {
+   
+ }
+ 
+ 
+ .devolver h2 {
     font-size: 24px;
-    
-}
-
-.devolver h3 {
+   
+ }
+ 
+ 
+ .devolver h3 {
     font-size: 20px;
-    
+   
     margin-top: 20px;
-}
-
-.devolver ol {
+ }
+ 
+ 
+ .devolver ol {
     margin-top: 10px;
-}
-
-.devolver ol li {
+ }
+ 
+ 
+ .devolver ol li {
     margin-bottom: 10px;
-}
-
-.devolver p {
+ }
+ 
+ 
+ .devolver p {
     line-height: 1.5;
-}
-
-
-
-
-.main-contacto {flex: 1;}
-
-.main-productos {flex: 1;}
-
-.main-informacion {flex: 1;}
-
-.main-devoluciones {flex: 1;}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .main-contacto {flex: 1;}
+ 
+ 
+ .main-productos {flex: 1;}
+ 
+ 
+ .main-informacion {flex: 1;}
+ 
+ 
+ .main-devoluciones {flex: 1;}
 
 
 
