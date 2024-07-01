@@ -8,12 +8,11 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Asegura que el cuerpo de la página ocupe al menos el 100% de la altura de la ventana */
+    min-height: 100vh; 
 }
 
 main {
-    flex: 1; /* Permite que el contenido principal ocupe el espacio disponible */
-}
+    flex: 1;   }
 
 .header-inicio {
     
@@ -99,22 +98,22 @@ h1 {
     margin: auto;
     background-color: black;
     border: 2px solid white;
-    padding: 20px; /* Añadido para dar espacio entre el borde y las tarjetas */
+    padding: 20px; 
 }
     
     
     
     .container .card {
         width: 330px;
-    height: auto; /* Cambiado a 'auto' para ajustarse al contenido */
+    height: auto; 
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    max-width: 100%; /* Ajustado para que se adapte al ancho del contenedor */
-    background-color: #222; /* Añadido para visualizar mejor el área de la tarjeta */
+    max-width: 100%; 
+    background-color: #222; 
     display: flex;
-    flex-direction: column; /* Añadido para alinear elementos verticalmente */
+    flex-direction: column; 
 
     
     
@@ -122,16 +121,16 @@ h1 {
     .container .card img{
     width: 100%;
     height: auto;
-    max-width: 100%; /* Ajustado para que la imagen ocupe todo el ancho disponible */
-    object-fit: cover; /* Añadido para cubrir completamente el espacio */
+    max-width: 100%; 
+    object-fit: cover; 
     }
     .container .card-body {
-        padding: 10px; /* Añadido para espacio interno en la tarjeta */
+        padding: 10px; 
     }
     
     .container .card h3, .container .card h5 {
     color: white;
-    margin-top: 10px; /* Ajustado para separar los elementos */   }
+    margin-top: 10px;    }
 
     
     
@@ -141,7 +140,7 @@ h1 {
         border: none;
         padding: 10px 20px;
         cursor: pointer;
-        margin-top: auto; /* Añadido para alinear al final de la tarjeta */
+        margin-top: auto; 
     }
    
     
@@ -264,8 +263,8 @@ width: 100%;
 
 
 border-top: 2px solid white;
-clear: both; /* Añadido para limpiar floats */
-    position: relative; /* Añadido para controlar posición */
+clear: both; 
+    position: relative; 
 
 
 
@@ -292,7 +291,7 @@ clear: both; /* Añadido para limpiar floats */
 .logo-foot img {
     width: 150px;
     height: 100px;
-    object-fit: contain; /* Cambiado para mantener la proporción */
+    object-fit: contain; 
 }
 
 
@@ -331,7 +330,7 @@ clear: both; /* Añadido para limpiar floats */
     margin: 0 10px; 
 }
 
-/* Agregado para permitir que el contenido principal expanda el espacio disponible antes era solo .main inicio*/
+
 .main-inicio, .main-productos, .main-contacto, .main-informacion, .main-devoluciones {
     flex: 1;
 }
