@@ -1,0 +1,94 @@
+.informacion {
+  background-color: black;
+
+  .header-informacion {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    max-width: 1500px;
+
+    .links-secciones {
+      list-style: none;
+      display: flex;
+
+      li {
+        display: inline-block;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: "Roboto", sans-serif;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .main-informacion {
+    background-color: black; /* Ajuste opcional si deseas que el fondo sea negro */
+    color: white; /* Color de texto blanco */
+    padding: 50px 0; /* Espaciado interno */
+
+    .container {
+      text-align: center; /* Centrar contenido */
+      max-width: 800px; /* Ancho máximo del contenido */
+
+      h1 {
+        color: white; /* Color blanco para el título */
+        font-size: 2.5rem; /* Tamaño del título */
+        margin-bottom: 30px; /* Espaciado inferior */
+      }
+
+      .lista-info {
+        list-style-type: none; /* Quita los puntos de la lista */
+        padding-left: 0; /* Elimina el relleno izquierdo predeterminado */
+
+        li {
+          margin-bottom: 30px; /* Espaciado inferior entre elementos de la lista */
+          font-size: 1.2rem; /* Tamaño de fuente para los elementos de la lista */
+          text-align: left; /* Alineación de texto izquierda */
+        }
+
+        h3 {
+          color: white; /* Color blanco para los títulos de sección */
+          font-size: 1.5rem; /* Tamaño de fuente para los títulos de sección */
+          margin-bottom: 10px; /* Espaciado inferior para los títulos de sección */
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    border-top: 1px solid white;
+
+    .container {
+      .logo-foot {
+        img {
+          max-width: 150px; /* Ajustar tamaño del logo según sea necesario */
+        }
+      }
+
+      .redes-sociales {
+        img {
+          width: 40px; /* Ajustar tamaño de iconos de redes sociales según sea necesario */
+          height: auto;
+          margin-right: 10px;
+        }
+      }
+
+      .foot-links {
+        li {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+

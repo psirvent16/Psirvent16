@@ -1,0 +1,43 @@
+body.producto {
+  background-color: black; 
+
+  .main-productos {
+    background-color: black; 
+    color: white; 
+
+    .card {
+      background-color: #222; 
+      border: 2px solid white;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+
+      .card-img-top {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .card-body {
+        padding: 10px;
+
+        .card-title, .card-text {
+          color: white; 
+          margin-top: 10px;
+        }
+
+        .btn {
+          background-color: red; 
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+          margin-top: auto;
+        }
+      }
+    }
+  }
+}

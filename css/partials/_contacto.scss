@@ -1,0 +1,70 @@
+body.contacto {
+  background-color: black;
+
+  .header-contacto {
+    background-color: black;
+    border-bottom: 2px solid white;
+
+    .navbar-brand .icono {
+      max-height: 50px; 
+    }
+  }
+
+  .main-contacto {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+
+    form {
+      max-width: 600px;
+      margin: auto;
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid white;
+
+      .form-label {
+        color: white;
+      }
+
+      .form-control {
+        background-color: #333;
+        color: white;
+        border: 1px solid white;
+      }
+
+      .btn-primary {
+        background-color: red;
+        border: none;
+      }
+
+      .btn-secondary {
+        background-color: grey;
+        border: none;
+      }
+    }
+  }
+
+  .footer {
+    background-color: black;
+    color: white;
+
+    .logo-foot img {
+      max-height: 50px; 
+    }
+
+    .foot-links a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .redes-sociales img {
+      max-height: 24px; 
+      margin-right: 10px;
+
+      &.icono-red {
+        max-height: 24px;
+      }
+    }
+  }
+}

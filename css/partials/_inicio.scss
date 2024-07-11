@@ -1,0 +1,97 @@
+.inicio {
+  .header-inicio {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid white;
+    max-width: 1500px;
+    z-index: 1000;
+
+    .links-secciones {
+      list-style: none;
+      display: flex;
+
+      li {
+        display: inline-block;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: "Roboto", sans-serif;
+
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .body-inicio {
+    background-image: url('../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg');
+    background-color: black; /* Fondo negro detrás de la imagen */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      text-align: center;
+      margin: 220px 40px 30px 20px;
+      font-size: 36px;
+      font-family: "Mukta", sans-serif;
+      color: red;
+      display: flex;
+      flex-direction: column;
+      min-height: 230px;
+    }
+  }
+
+  .footer-inicio {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-top: 2px solid white;
+    position: relative;
+
+    .logo-foot img {
+      max-height: 50px;
+    }
+
+    .foot-links {
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          display: inline;
+          margin-right: 20px;
+
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              color: red; /* Cambiar color al pasar el mouse */
+            }
+          }
+        }
+      }
+    }
+
+    .contact-foot p {
+      margin: 0;
+    }
+
+    .redes-sociales {
+      text-align: center;
+
+      img {
+        max-height: 50px; /* Tamaño igual al footer de productos */
+        margin: 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.devoluciones {
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  
+    .header-devoluciones {
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      border-bottom: 2px solid white;
+      max-width: 1500px;
+  
+      .links-secciones {
+        list-style: none;
+        display: flex;
+  
+        li {
+          display: inline-block;
+          align-items: center;
+          padding-right: 1rem;
+          font-family: "Roboto", sans-serif;
+  
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  
+    .devolver {
+      padding: 20px;
+      text-align: center;
+      list-style: none;
+  
+      h2 {
+        font-size: 24px;
+      }
+  
+      h3 {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+  
+      ol {
+        margin-top: 10px;
+  
+        li {
+          margin-bottom: 10px;
+        }
+      }
+  
+      p {
+        line-height: 1.5;
+      }
+    }
+  }

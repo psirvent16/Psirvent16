@@ -1,0 +1,369 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 2px solid white;
+  max-width: 1500px;
+  z-index: 1000;
+}
+.header .navbar-brand .icono {
+  max-height: 50px;
+}
+.header .navbar-nav .nav-item .nav-link {
+  color: white;
+  text-decoration: none;
+}
+.header .navbar-nav .nav-item .nav-link:hover {
+  color: red; /* Cambiar color al pasar el mouse */
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-top: 2px solid white;
+  position: relative;
+}
+.footer .logo-foot img {
+  max-height: 50px;
+}
+.footer .foot-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer .foot-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.footer .foot-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer .foot-links ul li a:hover {
+  color: red; /* Cambiar color al pasar el mouse */
+}
+.footer .contact-foot p {
+  margin: 0;
+}
+.footer .redes-sociales {
+  text-align: center;
+}
+.footer .redes-sociales img {
+  width: 70px;
+  height: auto;
+  margin: 0 10px;
+}
+
+body.producto {
+  background-color: black;
+}
+body.producto .main-productos {
+  background-color: black;
+  color: white;
+}
+body.producto .main-productos .card {
+  background-color: #222;
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+body.producto .main-productos .card .card-img-top {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body.producto .main-productos .card .card-body {
+  padding: 10px;
+}
+body.producto .main-productos .card .card-body .card-title, body.producto .main-productos .card .card-body .card-text {
+  color: white;
+  margin-top: 10px;
+}
+body.producto .main-productos .card .card-body .btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.informacion {
+  background-color: black;
+}
+.informacion .header-informacion {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid white;
+  max-width: 1500px;
+}
+.informacion .header-informacion .links-secciones {
+  list-style: none;
+  display: flex;
+}
+.informacion .header-informacion .links-secciones li {
+  display: inline-block;
+  align-items: center;
+  padding-right: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.informacion .header-informacion .links-secciones li a {
+  color: white;
+  text-decoration: none;
+}
+.informacion .main-informacion {
+  background-color: black; /* Ajuste opcional si deseas que el fondo sea negro */
+  color: white; /* Color de texto blanco */
+  padding: 50px 0; /* Espaciado interno */
+}
+.informacion .main-informacion .container {
+  text-align: center; /* Centrar contenido */
+  max-width: 800px; /* Ancho máximo del contenido */
+}
+.informacion .main-informacion .container h1 {
+  color: white; /* Color blanco para el título */
+  font-size: 2.5rem; /* Tamaño del título */
+  margin-bottom: 30px; /* Espaciado inferior */
+}
+.informacion .main-informacion .container .lista-info {
+  list-style-type: none; /* Quita los puntos de la lista */
+  padding-left: 0; /* Elimina el relleno izquierdo predeterminado */
+}
+.informacion .main-informacion .container .lista-info li {
+  margin-bottom: 30px; /* Espaciado inferior entre elementos de la lista */
+  font-size: 1.2rem; /* Tamaño de fuente para los elementos de la lista */
+  text-align: left; /* Alineación de texto izquierda */
+}
+.informacion .main-informacion .container .lista-info h3 {
+  color: white; /* Color blanco para los títulos de sección */
+  font-size: 1.5rem; /* Tamaño de fuente para los títulos de sección */
+  margin-bottom: 10px; /* Espaciado inferior para los títulos de sección */
+}
+.informacion footer {
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  border-top: 1px solid white;
+}
+.informacion footer .container .logo-foot img {
+  max-width: 150px; /* Ajustar tamaño del logo según sea necesario */
+}
+.informacion footer .container .redes-sociales img {
+  width: 40px; /* Ajustar tamaño de iconos de redes sociales según sea necesario */
+  height: auto;
+  margin-right: 10px;
+}
+.informacion footer .container .foot-links li {
+  margin-right: 1rem;
+}
+
+body.contacto {
+  background-color: black;
+}
+body.contacto .header-contacto {
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+body.contacto .header-contacto .navbar-brand .icono {
+  max-height: 50px;
+}
+body.contacto .main-contacto {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+}
+body.contacto .main-contacto form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+body.contacto .main-contacto form .form-label {
+  color: white;
+}
+body.contacto .main-contacto form .form-control {
+  background-color: #333;
+  color: white;
+  border: 1px solid white;
+}
+body.contacto .main-contacto form .btn-primary {
+  background-color: red;
+  border: none;
+}
+body.contacto .main-contacto form .btn-secondary {
+  background-color: grey;
+  border: none;
+}
+body.contacto .footer {
+  background-color: black;
+  color: white;
+}
+body.contacto .footer .logo-foot img {
+  max-height: 50px;
+}
+body.contacto .footer .foot-links a {
+  color: white;
+  text-decoration: none;
+}
+body.contacto .footer .redes-sociales img {
+  max-height: 24px;
+  margin-right: 10px;
+}
+body.contacto .footer .redes-sociales img.icono-red {
+  max-height: 24px;
+}
+
+.devoluciones {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.devoluciones .header-devoluciones {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 2px solid white;
+  max-width: 1500px;
+}
+.devoluciones .header-devoluciones .links-secciones {
+  list-style: none;
+  display: flex;
+}
+.devoluciones .header-devoluciones .links-secciones li {
+  display: inline-block;
+  align-items: center;
+  padding-right: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.devoluciones .header-devoluciones .links-secciones li a {
+  color: white;
+  text-decoration: none;
+}
+.devoluciones .devolver {
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+}
+.devoluciones .devolver h2 {
+  font-size: 24px;
+}
+.devoluciones .devolver h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.devoluciones .devolver ol {
+  margin-top: 10px;
+}
+.devoluciones .devolver ol li {
+  margin-bottom: 10px;
+}
+.devoluciones .devolver p {
+  line-height: 1.5;
+}
+
+.inicio .header-inicio {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 2px solid white;
+  max-width: 1500px;
+  z-index: 1000;
+}
+.inicio .header-inicio .links-secciones {
+  list-style: none;
+  display: flex;
+}
+.inicio .header-inicio .links-secciones li {
+  display: inline-block;
+  align-items: center;
+  padding-right: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.inicio .header-inicio .links-secciones li a {
+  color: white;
+  text-decoration: none;
+}
+.inicio .body-inicio {
+  background-image: url("../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg");
+  background-color: black; /* Fondo negro detrás de la imagen */
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inicio .body-inicio h1 {
+  text-align: center;
+  margin: 220px 40px 30px 20px;
+  font-size: 36px;
+  font-family: "Mukta", sans-serif;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+}
+.inicio .footer-inicio {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-top: 2px solid white;
+  position: relative;
+}
+.inicio .footer-inicio .logo-foot img {
+  max-height: 50px;
+}
+.inicio .footer-inicio .foot-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.inicio .footer-inicio .foot-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.inicio .footer-inicio .foot-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.inicio .footer-inicio .foot-links ul li a:hover {
+  color: red; /* Cambiar color al pasar el mouse */
+}
+.inicio .footer-inicio .contact-foot p {
+  margin: 0;
+}
+.inicio .footer-inicio .redes-sociales {
+  text-align: center;
+}
+.inicio .footer-inicio .redes-sociales img {
+  max-height: 50px; /* Tamaño igual al footer de productos */
+  margin: 0 10px;
+}/*# sourceMappingURL=estilo.css.map */
