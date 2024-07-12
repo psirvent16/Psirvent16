@@ -1,12 +1,22 @@
 body.contacto {
   background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
 
   .header-contacto {
     background-color: black;
     border-bottom: 2px solid white;
 
     .navbar-brand .icono {
-      max-height: 50px; 
+      max-height: 50px;
+    }
+
+    .navbar-nav .nav-link {
+      color: white;
+
+      &:hover {
+        color: #ffcc00; // Slight color change on hover for better UX
+      }
     }
   }
 
@@ -22,25 +32,47 @@ body.contacto {
       padding: 20px;
       border-radius: 8px;
       border: 2px solid white;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 
       .form-label {
         color: white;
+        font-weight: bold;
       }
 
       .form-control {
         background-color: #333;
         color: white;
         border: 1px solid white;
+
+        &::placeholder {
+          color: #aaa;
+        }
+
+        &:focus {
+          background-color: #444;
+          border-color: #ffcc00;
+          box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+        }
       }
 
       .btn-primary {
         background-color: red;
         border: none;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: darkred;
+        }
       }
 
       .btn-secondary {
         background-color: grey;
         border: none;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: darkgrey;
+        }
       }
     }
   }
@@ -48,22 +80,37 @@ body.contacto {
   .footer {
     background-color: black;
     color: white;
+    border-top: 2px solid white;
+    padding: 20px 0;
 
     .logo-foot img {
-      max-height: 50px; 
+      max-height: 50px;
     }
 
     .foot-links a {
       color: white;
       text-decoration: none;
+      margin-right: 15px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #ffcc00;
+      }
+    }
+
+    .contact-foot {
+      p {
+        margin-bottom: 0.5rem;
+      }
     }
 
     .redes-sociales img {
-      max-height: 24px; 
+      max-height: 24px;
       margin-right: 10px;
+      transition: transform 0.3s;
 
-      &.icono-red {
-        max-height: 24px;
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }

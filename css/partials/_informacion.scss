@@ -29,34 +29,34 @@
   }
 
   .main-informacion {
-    background-color: black; /* Ajuste opcional si deseas que el fondo sea negro */
-    color: white; /* Color de texto blanco */
-    padding: 50px 0; /* Espaciado interno */
+    background-color: black;
+    color: white;
+    padding: 50px 0;
 
     .container {
-      text-align: center; /* Centrar contenido */
-      max-width: 800px; /* Ancho máximo del contenido */
+      text-align: center;
+      max-width: 800px;
 
       h1 {
-        color: white; /* Color blanco para el título */
-        font-size: 2.5rem; /* Tamaño del título */
-        margin-bottom: 30px; /* Espaciado inferior */
+        color: white;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
       }
 
       .lista-info {
-        list-style-type: none; /* Quita los puntos de la lista */
-        padding-left: 0; /* Elimina el relleno izquierdo predeterminado */
+        list-style-type: none;
+        padding-left: 0;
 
         li {
-          margin-bottom: 30px; /* Espaciado inferior entre elementos de la lista */
-          font-size: 1.2rem; /* Tamaño de fuente para los elementos de la lista */
-          text-align: left; /* Alineación de texto izquierda */
-        }
+          margin-bottom: 30px;
+          font-size: 1.2rem;
+          text-align: left;
 
-        h3 {
-          color: white; /* Color blanco para los títulos de sección */
-          font-size: 1.5rem; /* Tamaño de fuente para los títulos de sección */
-          margin-bottom: 10px; /* Espaciado inferior para los títulos de sección */
+          h3 {
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+          }
         }
       }
     }
@@ -71,13 +71,13 @@
     .container {
       .logo-foot {
         img {
-          max-width: 150px; /* Ajustar tamaño del logo según sea necesario */
+          max-width: 150px;
         }
       }
 
       .redes-sociales {
         img {
-          width: 40px; /* Ajustar tamaño de iconos de redes sociales según sea necesario */
+          width: 40px;
           height: auto;
           margin-right: 10px;
         }
@@ -91,4 +91,7 @@
     }
   }
 }
+
+
+
 

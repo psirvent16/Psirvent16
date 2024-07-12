@@ -24,10 +24,9 @@
   text-decoration: none;
 }
 .header .navbar-nav .nav-item .nav-link:hover {
-  color: red; /* Cambiar color al pasar el mouse */
+  color: red;
 }
 
-/* Footer */
 .footer {
   background-color: black;
   color: white;
@@ -53,7 +52,7 @@
   text-decoration: none;
 }
 .footer .foot-links ul li a:hover {
-  color: red; /* Cambiar color al pasar el mouse */
+  color: red;
 }
 .footer .contact-foot p {
   margin: 0;
@@ -106,6 +105,89 @@ body.producto .main-productos .card .card-body .btn {
   margin-top: auto;
 }
 
+body.body-inicio {
+  background-image: url("../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg");
+  background-color: black; /* Fondo negro detrás de la imagen */
+  height: 100vh; /* Ajuste para ocupar toda la altura de la pantalla */
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body.body-inicio h1 {
+  text-align: center;
+  margin: 220px 40px 30px 20px;
+  font-size: 36px;
+  font-family: "Mukta", sans-serif;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+}
+
+.header-inicio {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  border-bottom: 2px solid white;
+  max-width: 1500px;
+  z-index: 1000;
+}
+.header-inicio .links-secciones {
+  list-style: none;
+  display: flex;
+}
+.header-inicio .links-secciones li {
+  display: inline-block;
+  align-items: center;
+  padding-right: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.header-inicio .links-secciones li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-inicio {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  border-top: 2px solid white;
+  position: relative;
+}
+.footer-inicio .logo-foot img {
+  max-height: 50px;
+}
+.footer-inicio .foot-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-inicio .foot-links ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.footer-inicio .foot-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-inicio .foot-links ul li a:hover {
+  color: red; /* Cambiar color al pasar el mouse */
+}
+.footer-inicio .contact-foot p {
+  margin: 0;
+}
+.footer-inicio .redes-sociales {
+  text-align: center;
+}
+.footer-inicio .redes-sociales img {
+  max-height: 50px; /* Tamaño igual al footer de productos */
+  margin: 0 10px;
+}
+
 .informacion {
   background-color: black;
 }
@@ -133,32 +215,32 @@ body.producto .main-productos .card .card-body .btn {
   text-decoration: none;
 }
 .informacion .main-informacion {
-  background-color: black; /* Ajuste opcional si deseas que el fondo sea negro */
-  color: white; /* Color de texto blanco */
-  padding: 50px 0; /* Espaciado interno */
+  background-color: black;
+  color: white;
+  padding: 50px 0;
 }
 .informacion .main-informacion .container {
-  text-align: center; /* Centrar contenido */
-  max-width: 800px; /* Ancho máximo del contenido */
+  text-align: center;
+  max-width: 800px;
 }
 .informacion .main-informacion .container h1 {
-  color: white; /* Color blanco para el título */
-  font-size: 2.5rem; /* Tamaño del título */
-  margin-bottom: 30px; /* Espaciado inferior */
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 .informacion .main-informacion .container .lista-info {
-  list-style-type: none; /* Quita los puntos de la lista */
-  padding-left: 0; /* Elimina el relleno izquierdo predeterminado */
+  list-style-type: none;
+  padding-left: 0;
 }
 .informacion .main-informacion .container .lista-info li {
-  margin-bottom: 30px; /* Espaciado inferior entre elementos de la lista */
-  font-size: 1.2rem; /* Tamaño de fuente para los elementos de la lista */
-  text-align: left; /* Alineación de texto izquierda */
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  text-align: left;
 }
-.informacion .main-informacion .container .lista-info h3 {
-  color: white; /* Color blanco para los títulos de sección */
-  font-size: 1.5rem; /* Tamaño de fuente para los títulos de sección */
-  margin-bottom: 10px; /* Espaciado inferior para los títulos de sección */
+.informacion .main-informacion .container .lista-info li h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 .informacion footer {
   background-color: black;
@@ -167,10 +249,10 @@ body.producto .main-productos .card .card-body .btn {
   border-top: 1px solid white;
 }
 .informacion footer .container .logo-foot img {
-  max-width: 150px; /* Ajustar tamaño del logo según sea necesario */
+  max-width: 150px;
 }
 .informacion footer .container .redes-sociales img {
-  width: 40px; /* Ajustar tamaño de iconos de redes sociales según sea necesario */
+  width: 40px;
   height: auto;
   margin-right: 10px;
 }
@@ -180,6 +262,8 @@ body.producto .main-productos .card .card-body .btn {
 
 body.contacto {
   background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 body.contacto .header-contacto {
   background-color: black;
@@ -187,6 +271,12 @@ body.contacto .header-contacto {
 }
 body.contacto .header-contacto .navbar-brand .icono {
   max-height: 50px;
+}
+body.contacto .header-contacto .navbar-nav .nav-link {
+  color: white;
+}
+body.contacto .header-contacto .navbar-nav .nav-link:hover {
+  color: #ffcc00;
 }
 body.contacto .main-contacto {
   background-color: black;
@@ -200,26 +290,49 @@ body.contacto .main-contacto form {
   padding: 20px;
   border-radius: 8px;
   border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 body.contacto .main-contacto form .form-label {
   color: white;
+  font-weight: bold;
 }
 body.contacto .main-contacto form .form-control {
   background-color: #333;
   color: white;
   border: 1px solid white;
 }
+body.contacto .main-contacto form .form-control::-moz-placeholder {
+  color: #aaa;
+}
+body.contacto .main-contacto form .form-control::placeholder {
+  color: #aaa;
+}
+body.contacto .main-contacto form .form-control:focus {
+  background-color: #444;
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+}
 body.contacto .main-contacto form .btn-primary {
   background-color: red;
   border: none;
+  transition: background-color 0.3s;
+}
+body.contacto .main-contacto form .btn-primary:hover {
+  background-color: darkred;
 }
 body.contacto .main-contacto form .btn-secondary {
   background-color: grey;
   border: none;
+  transition: background-color 0.3s;
+}
+body.contacto .main-contacto form .btn-secondary:hover {
+  background-color: darkgrey;
 }
 body.contacto .footer {
   background-color: black;
   color: white;
+  border-top: 2px solid white;
+  padding: 20px 0;
 }
 body.contacto .footer .logo-foot img {
   max-height: 50px;
@@ -227,28 +340,37 @@ body.contacto .footer .logo-foot img {
 body.contacto .footer .foot-links a {
   color: white;
   text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+body.contacto .footer .foot-links a:hover {
+  color: #ffcc00;
+}
+body.contacto .footer .contact-foot p {
+  margin-bottom: 0.5rem;
 }
 body.contacto .footer .redes-sociales img {
   max-height: 24px;
   margin-right: 10px;
+  transition: transform 0.3s;
 }
-body.contacto .footer .redes-sociales img.icono-red {
-  max-height: 24px;
+body.contacto .footer .redes-sociales img:hover {
+  transform: scale(1.1);
 }
 
 .devoluciones {
-  background-color: black;
+  background-color: #000;
   font-family: "Roboto", sans-serif;
-  color: white;
+  color: #fff;
 }
 .devoluciones .header-devoluciones {
   width: 100%;
-  background-color: black;
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
   max-width: 1500px;
 }
 .devoluciones .header-devoluciones .links-secciones {
@@ -262,108 +384,69 @@ body.contacto .footer .redes-sociales img.icono-red {
   font-family: "Roboto", sans-serif;
 }
 .devoluciones .header-devoluciones .links-secciones li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
-.devoluciones .devolver {
-  padding: 20px;
-  text-align: center;
-  list-style: none;
+.devoluciones .header-devoluciones .links-secciones li a:hover {
+  color: #f0a500;
 }
-.devoluciones .devolver h2 {
-  font-size: 24px;
+.devoluciones .main-contacto {
+  padding: 60px 20px 20px;
+  text-align: left;
 }
-.devoluciones .devolver h3 {
-  font-size: 20px;
-  margin-top: 20px;
-}
-.devoluciones .devolver ol {
-  margin-top: 10px;
-}
-.devoluciones .devolver ol li {
-  margin-bottom: 10px;
-}
-.devoluciones .devolver p {
-  line-height: 1.5;
-}
-
-.inicio .header-inicio {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  border-bottom: 2px solid white;
-  max-width: 1500px;
-  z-index: 1000;
-}
-.inicio .header-inicio .links-secciones {
-  list-style: none;
-  display: flex;
-}
-.inicio .header-inicio .links-secciones li {
-  display: inline-block;
-  align-items: center;
-  padding-right: 1rem;
-  font-family: "Roboto", sans-serif;
-}
-.inicio .header-inicio .links-secciones li a {
-  color: white;
-  text-decoration: none;
-}
-.inicio .body-inicio {
-  background-image: url("../images/Nike-Dunk-Low-Panda-DD1391-1000808_16x9.jpeg");
-  background-color: black; /* Fondo negro detrás de la imagen */
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.inicio .body-inicio h1 {
-  text-align: center;
-  margin: 220px 40px 30px 20px;
+.devoluciones .main-contacto h1 {
   font-size: 36px;
-  font-family: "Mukta", sans-serif;
-  color: red;
-  display: flex;
-  flex-direction: column;
-  min-height: 230px;
-}
-.inicio .footer-inicio {
-  background-color: black;
-  color: white;
-  padding: 20px;
-  width: 100%;
-  border-top: 2px solid white;
-  position: relative;
-}
-.inicio .footer-inicio .logo-foot img {
-  max-height: 50px;
-}
-.inicio .footer-inicio .foot-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.inicio .footer-inicio .foot-links ul li {
-  display: inline;
-  margin-right: 20px;
-}
-.inicio .footer-inicio .foot-links ul li a {
-  color: white;
-  text-decoration: none;
-}
-.inicio .footer-inicio .foot-links ul li a:hover {
-  color: red; /* Cambiar color al pasar el mouse */
-}
-.inicio .footer-inicio .contact-foot p {
-  margin: 0;
-}
-.inicio .footer-inicio .redes-sociales {
   text-align: center;
+  margin-bottom: 30px;
 }
-.inicio .footer-inicio .redes-sociales img {
-  max-height: 50px; /* Tamaño igual al footer de productos */
-  margin: 0 10px;
+.devoluciones .main-contacto h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+}
+.devoluciones .main-contacto ol {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.devoluciones .main-contacto ol li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.devoluciones .main-contacto p {
+  line-height: 1.6;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.devoluciones .main-contacto form {
+  margin-top: 40px;
+}
+.devoluciones .main-contacto form .form-label {
+  font-size: 18px;
+}
+.devoluciones .main-contacto form .form-control {
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+}
+.devoluciones .main-contacto form .form-control:focus {
+  border-color: #f0a500;
+  box-shadow: none;
+}
+.devoluciones .main-contacto form .btn-primary {
+  background-color: #f0a500;
+  border-color: #f0a500;
+  color: #000;
+}
+.devoluciones .main-contacto form .btn-primary:hover {
+  background-color: #c88500;
+  border-color: #c88500;
+}
+.devoluciones .main-contacto form .btn-secondary {
+  background-color: #555;
+  border-color: #555;
+}
+.devoluciones .main-contacto form .btn-secondary:hover {
+  background-color: #333;
+  border-color: #333;
 }/*# sourceMappingURL=estilo.css.map */
