@@ -1,46 +1,28 @@
 .informacion {
-  background-color: black;
+  background-color: #000; /* Fondo negro para el body */
 
-  .header-informacion {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid white;
-    max-width: 1500px;
-
-    .links-secciones {
-      list-style: none;
-      display: flex;
-
-      li {
-        display: inline-block;
-        align-items: center;
-        padding-right: 1rem;
-        font-family: "Roboto", sans-serif;
-
-        a {
-          color: white;
-          text-decoration: none;
-        }
-      }
-    }
+  .header-devoluciones {
+    // Estilos del header (idénticos a devoluciones)
   }
 
   .main-informacion {
-    background-color: black;
-    color: white;
-    padding: 50px 0;
+    padding-top: 60px; /* Espacio para el header fijo */
+    background-color: #000; /* Fondo negro para el main */
+    color: #fff;
 
     .container {
-      text-align: center;
       max-width: 800px;
+      margin: auto; /* Centra el contenido en el contenedor */
+      padding: 20px;
+      text-align: center;
 
       h1 {
-        color: white;
+        color: #fff;
         font-size: 2.5rem;
         margin-bottom: 30px;
+        border-bottom: 2px solid #f0a500; /* Línea decorativa debajo del título */
+        display: inline-block;
+        padding-bottom: 10px;
       }
 
       .lista-info {
@@ -51,11 +33,27 @@
           margin-bottom: 30px;
           font-size: 1.2rem;
           text-align: left;
+          padding: 20px;
+          background-color: #1a1a1a; /* Fondo oscuro para destacar las secciones */
+          border-radius: 8px; /* Bordes redondeados */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+          transition: background-color 0.3s ease, transform 0.3s ease;
+
+          &:hover {
+            background-color: #333; /* Fondo más claro al pasar el ratón */
+            transform: translateY(-5px); /* Efecto de elevación */
+          }
 
           h3 {
-            color: white;
+            color: #f0a500; /* Color dorado para los títulos */
             font-size: 1.5rem;
             margin-bottom: 10px;
+          }
+
+          ul {
+            padding-left: 20px;
+            list-style-type: disc; /* Puntos en la lista */
+            color: #ccc; /* Color más claro para el texto de la lista */
           }
         }
       }
@@ -63,35 +61,6 @@
   }
 
   footer {
-    background-color: black;
-    color: white;
-    padding-top: 30px;
-    border-top: 1px solid white;
-
-    .container {
-      .logo-foot {
-        img {
-          max-width: 150px;
-        }
-      }
-
-      .redes-sociales {
-        img {
-          width: 40px;
-          height: auto;
-          margin-right: 10px;
-        }
-      }
-
-      .foot-links {
-        li {
-          margin-right: 1rem;
-        }
-      }
-    }
+    // Estilos del footer (idénticos a devoluciones)
   }
 }
-
-
-
-

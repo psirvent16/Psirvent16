@@ -3,19 +3,34 @@ body.contacto {
   font-family: "Roboto", sans-serif;
   color: white;
 
-  .header-contacto {
-    background-color: black;
-    border-bottom: 2px solid white;
+  .header-devoluciones {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid #fff;
+    max-width: 1500px;
 
-    .navbar-brand .icono {
-      max-height: 50px;
-    }
+    .links-secciones {
+      list-style: none;
+      display: flex;
 
-    .navbar-nav .nav-link {
-      color: white;
+      li {
+        display: inline-block;
+        align-items: center;
+        padding-right: 1rem;
+        font-family: "Roboto", sans-serif;
 
-      &:hover {
-        color: #ffcc00; // Slight color change on hover for better UX
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            color: #f0a500;
+          }
+        }
       }
     }
   }
